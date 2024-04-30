@@ -1,0 +1,639 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts-->
+
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"
+        ><span>K</span>ri<span>s</span>hn<span>a</span>
+        <span>T</span>ra<span>v</span>el<span>s</span></a
+      >
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About Us</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- login form container -->
+
+    <div class="login-form-container">
+      <i class="fa fa-time" id="form-close"></i>
+
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forget password?<a href="#">click here</a></p>
+        <p>don't have an account?<a href="#">register now</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts-->
+
+    <section class="home" id="home">
+      <div class="contact">
+        <h3>advanture is worthwhile</h3>
+        <p>discover new places with us, advanture awaits</p>
+        <a href="#" class="btn">discover more</a>
+      </div>
+      <div class="controls">
+        <span class="vid-btn active" data-src="images/V1.webm"></span>
+        <span class="vid-btn" data-src="images/V2.webm"></span>
+        <span class="vid-btn" data-src="images/V3.webm"></span>
+        <span class="vid-btn" data-src="images/V4.webm"></span>
+      </div>
+      <div class="video-container">
+        <video
+          src="images/V1.webm"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+    </section>
+
+    <!-- home section ends-->
+    <!--book section starts-->
+    <setion class="book" id="book">
+      <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+      </h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/book.jpg" style="height: 800px; width: 800px" />*
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name" />
+          </div>
+          <div class="inputBox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests" />
+          </div>
+          <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date" />
+          </div>
+          <div class="inputBox">
+            <h3>leaving</h3>
+            <input type="date" />
+          </div>
+          <input type="submit" class="btn" value="book now" />
+        </form>
+      </div>
+    </setion>
+    <!--book section ends-->
+    <!-- packages section starts-->
+    <section class="packages" id="packages">
+      <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/p-1.jpg" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>mumbai</h3>
+            <p>
+              Mumbai is built on what was once an archipelago of seven islands:
+              Isle of Bombay, Parel, Mazagaon, Mahim, Colaba, Worli, and Old
+              Woman's Island. It is not exactly known when these islands were
+              first inhabited. since the South Asian Stone Age. Perhaps at the
+              beginning of the Common Era, or possibly earlier, they came to be
+              occupied by the Koli fishing community.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$90.00 - <span>$120.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-2.jpg" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>hawaii</h3>
+            <p>
+              The Kingdom of Hawaiʻi was sovereign from 1810 until 1893, when
+              resident Americans and Europeans overthrew the monarchy. Hawaiʻi
+              was an independent republic from 1894 until August 12, 1898, when
+              it officially became a U.S. territory. Hawaiʻi was admitted as a
+              U.S. state on August 21, 1959.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$90.00 - <span>$120.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-3.jpg" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>sydney</h3>
+            <p>
+              From 1788 to 1900, Sydney was the capital of the British colony of
+              New South Wales. The town of Sydney was declared a city in 1842,
+              and a local government was established. In 1901, the Australian
+              colonies federated to become the Commonwealth of Australia.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$90.00 - <span>$120.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-4.jpg" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>paris</h3>
+            <p>
+              In 508 the first king of the Franks, Clovis I, made Paris the
+              capital of his empire. In 987, the Capetian dynasty came to power
+              until 1328. During the eleventh century, Paris gradually became
+              more prosper thanks to its trade in silver
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$90.00 - <span>$120.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-5.jpg" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>tokyo</h3>
+            <p>
+              Originally named Edo, the city started to flourish after Tokugawa
+              Ieyasu established the Tokugawa Shogunate here in 1603. As the
+              center of politics and culture in Japan, Edo grew into a huge city
+              with a population of over a million by the mid-eighteenth century.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$90.00 - <span>$120.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/p-6.jpg" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>egypt</h3>
+            <p>
+              History of ancient Egypt. People settled in Egypt as early as 6000
+              B.C. Over time, small villages joined together to become states
+              until two kingdoms emerged: Lower Egypt, which covers the Nile
+              River Delta up to the Mediterranean Sea in the north, and Upper
+              Egypt, which covers the Nile Valley in the south.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$90.00 - <span>$120.00</span></div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--packages section ends-->
+
+    <!--services section starts-->
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Krishna Tours offers hotel bookings across the world at economical
+            prices; whether you are traveling within India or abroad and are
+            looking for hotels, then we’ve got you covered.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>food and drinks</h3>
+          <p>
+            Krishna Tours books good hotel that they can have good food and
+            drinks.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>safety guide</h3>
+          <p>
+            Please keep your seatbelts fastened at all times.I ask that you keep your hands inside the train.As a safety precaution, please stand behind the yellow line.For your own safety, we ask that you refrain from putting your arms out the window.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia"></i>
+          <h3>around the world</h3>
+          <p>
+            We provide packages where you want to travel.We will prefer best places to travel we will take care of it.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>fastest travel</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil eum
+            temporibus soluta, quia vitae aperiam enim corrupti assumenda
+            aliquid nobis mollitia porro. Eligendi natus cupiditate!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>adventures</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil eum
+            temporibus soluta, quia vitae aperiam enim corrupti assumenda
+            aliquid nobis mollitia porro. Eligendi natus cupiditate!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--services section ends-->
+
+    <!--gallery section starts-->
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/g-1.jpg" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-2.jpg" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-3.jpg" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-4.jpg" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-5.jpg" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-6.jpg" style="width: 320px" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-7.jpg" style="width: 320px" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem ipsum dolor sit amet,.</p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-8.jpg" style="width: 320px" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--gallery section ends-->
+
+    <!-- review section starts -->
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic1.png" />
+              <h3>john deo</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur, ut voluptates ipsum autem temporibus quaerat.
+                Tempore cumque ratione mollitia rem doloremque, ut dignissimos
+                id aperiam soluta nobis repellat perspiciatis quae.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic2.jpg" />
+              <h3>john deo</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur, ut voluptates ipsum autem temporibus quaerat.
+                Tempore cumque ratione mollitia rem doloremque, ut dignissimos
+                id aperiam soluta nobis repellat perspiciatis quae.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic3.jpg" />
+              <h3>john deo</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur, ut voluptates ipsum autem temporibus quaerat.
+                Tempore cumque ratione mollitia rem doloremque, ut dignissimos
+                id aperiam soluta nobis repellat perspiciatis quae.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic4.webp" />
+              <h3>john deo</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur, ut voluptates ipsum autem temporibus quaerat.
+                Tempore cumque ratione mollitia rem doloremque, ut dignissimos
+                id aperiam soluta nobis repellat perspiciatis quae.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review section endss -->
+
+    <!--contact section starts-->
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/contact.jpg" width="500px" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="number" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea
+            placeholder="message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </section>
+    <!--contact section ends-->
+
+    <!--footer section-->
+
+    <section class="footer" id="about">
+      <div class="box-container">
+        <div class="box">
+          <h3>About us</h3>
+          <p>
+            See the world.It’s more fantastic than any dream. Nothing develops
+            intelligence like travel.Once a year, go someplace you’ve never been
+            before. Life is either a daring adventure or nothing. Take only
+            memories,leave only footprints. I haven’t been everywhere, but it’s
+            on my list.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Branch Location</h3>
+          <a href="#"><i class="fas fa-map-marker-alt"></i> India</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i> USA</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i> Japan</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i> France</a>
+        </div>
+        <div class="box">
+          <h3>Quick links</h3>
+          <a href="#home"><i class="fas fa-angle-right"></i> Home</a>
+          <a href="#book"><i class="fas fa-angle-right"></i> Book</a>
+          <a href="#packages"><i class="fas fa-angle-right"></i> Packages</a>
+          <a href="#services"><i class="fas fa-angle-right"></i> Services</a>
+          <a href="#gallery"><i class="fas fa-angle-right"></i> Gallery</a>
+          <a href="#review"><i class="fas fa-angle-right"></i> Review</a>
+          <a href="#contact"><i class="fas fa-angle-right"></i> Contact</a>
+        </div>
+        <div class="box">
+          <h3>Follow us</h3>
+          <a href="www.facebook.com"
+            ><i class="fab fa-facebook-square"></i> facebook</a
+          >
+          <a href="www.instagram.com"
+            ><i class="fab fa-instagram"></i> instagram</a
+          >
+          <a href="www.twitter.com"><i class="fab fa-twitter"></i> twitter</a>
+          <a href="www.linkedin.com"
+            ><i class="fab fa-linkedin-in"></i> linkedin</a
+          >
+        </div>
+      </div>
+
+      <h1 class="credit">
+        Copyright ©2024 All rights reserved by <span>Pranshu Patel</span>.
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
